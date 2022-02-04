@@ -17,7 +17,6 @@ namespace exersices<br>
             this.width = width;<br>
             this.height = height;<br>
             this.length = length;<br>
-
         }<br>
         public static float operator +(box box1, box box2)<br>
         {
@@ -25,9 +24,7 @@ namespace exersices<br>
         }
         public override string ToString()<br>
         {<br>
-
             return "box with width " + width + " height  " + height +" and length  "+ length;<br>
-
         }<br>
     }<br>
     class OperatorOverlading<br>
